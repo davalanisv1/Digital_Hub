@@ -20,6 +20,7 @@
 				},
 
 		};
+
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
@@ -317,6 +318,8 @@
 				};
 
 				$t._updatePos = function() { $reel.css('transform', 'translate(' + pos + 'px, 0)'); };
+
+				
 
 			// Forward.
 				$forward
